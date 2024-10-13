@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "KAZMED",
     "name": "Diplom1",
     "slug": "Diplom1",
     "version": "1.0.0",
@@ -25,6 +26,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Show current location on map."
+        }
+      ]
+    ]
   }
 }
